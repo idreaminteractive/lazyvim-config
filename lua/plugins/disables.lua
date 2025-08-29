@@ -3,6 +3,7 @@ return {
     "folke/snacks.nvim",
     priority = 1000,
     keys = {
+      { "<leader>E", false },
       { "<leader>e", false },
     },
     opts = {
