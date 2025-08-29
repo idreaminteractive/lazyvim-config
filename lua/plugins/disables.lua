@@ -1,4 +1,13 @@
-return {}
+return {
+  {
+    "folke/snacks.nvim",
+    opts = {
+      dashboard = {
+        enabled = false,
+      },
+    },
+  },
+}
 --   "folke/snacks.nvim",
 --   lazy = false,
 --   keys = {
