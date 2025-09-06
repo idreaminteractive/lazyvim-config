@@ -5,4 +5,14 @@ vim.lsp.config("expert", {
 })
 
 vim.lsp.enable("expert")
-return {}
+return {
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        -- Or, if you're using the standard LSP setup, disable it here:
+        elixirls = false,
+      },
+    },
+  },
+}
