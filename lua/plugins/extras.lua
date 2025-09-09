@@ -1,6 +1,5 @@
-local api = require("supermaven-nvim.api")
---
-api.use_free_version() -- switch to the free version
+-- local api = require("supermaven-nvim.api")
+-- api.use_free_version() -- switch to the free version
 return {
   {
     "saghen/blink.cmp",
@@ -11,6 +10,14 @@ return {
 
         ["<C-k>"] = { "select_prev", "fallback" },
         ["<C-j>"] = { "select_next", "fallback" },
+      },
+    },
+  },
+  {
+    "supermaven-inc/supermaven-nvim",
+    opts = {
+      cmd = {
+        "SupermavenUseFree",
       },
     },
   },
