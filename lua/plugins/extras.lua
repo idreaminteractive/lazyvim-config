@@ -13,12 +13,4 @@ return {
       },
     },
   },
-  {
-    "supermaven-inc/supermaven-nvim",
-    opts = {
-      cmd = {
-        "SupermavenUseFree",
-      },
-    },
-  },
 }
