@@ -1,5 +1,3 @@
--- local api = require("supermaven-nvim.api")
--- api.use_free_version() -- switch to the free version
 return {
   {
     "saghen/blink.cmp",
